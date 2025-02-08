@@ -1,0 +1,6 @@
+---
+description: always remain api agnostic, this should work with any api
+globs: 
+---
+always remain api agnostic, this should work with any api. so don't attempt to solve a problem that's happening in an example by hard-coding solutions. Simply focus on improving the prompts so the AI can resolve things better. But when you improve the prompt, do so in an API-agnostic way, something that just challenges the AI to think critically about how to solve it.
+For example, if our current example we are using to test is openweathermap.org, you should never specifically add a conditional that deals with OpenWeatherMap's API such as verifying the city, etc.
